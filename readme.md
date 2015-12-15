@@ -7,7 +7,7 @@ Exports Espresso view in uiautomatorviewer format.
 
 1. Invoke `ViewToUix.dumpView();` from your test.
 2. Download png and uix file with `adb pull /sdcard/Android/data/com.example.android.testing.espresso.BasicSample/cache/dump`
-3. Open uiautomatorviewer and select file 
+3. Open uiautomatorviewer then select [image and file](uix/)
 <br><img src="readme/open_files.png" width="60%">
 4. Inspect the Espresso view hierarchy
 <br><img src="readme/inspector.png" width="60%">
