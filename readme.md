@@ -5,7 +5,7 @@ Exports Espresso view in uiautomatorviewer format.
 
 # Use
 
-1. Invoke [`ViewToUix.dumpView();`](https://github.com/bootstraponline/view_to_uix/blob/master/BasicSample/app/src/androidTest/java/com/example/android/testing/espresso/BasicSample/ViewToUix.java) [from your test.](https://github.com/bootstraponline/view_to_uix/blob/b87b4dd4749127c232c9a70adfe85517dc8928be/BasicSample/app/src/androidTest/java/com/example/android/testing/espresso/BasicSample/ChangeTextBehaviorTest.java#L79)
+1. Invoke [`ViewToUix.dumpView();`](https://github.com/bootstraponline/view_to_uix/blob/437a3be9c3a04ff0e8f21670baafef521f8a4ee8/BasicSample/app/src/androidTest/java/com/example/android/testing/espresso/BasicSample/ViewToUix.java#L444) [from your test.](https://github.com/bootstraponline/view_to_uix/blob/b87b4dd4749127c232c9a70adfe85517dc8928be/BasicSample/app/src/androidTest/java/com/example/android/testing/espresso/BasicSample/ChangeTextBehaviorTest.java#L79)
 2. Download png and uix file with `adb pull /sdcard/Android/data/com.example.android.testing.espresso.BasicSample/cache/dump`
 3. Open uiautomatorviewer then select [image and file](uix/)
 <br><img src="readme/open_files.png" width="60%">
